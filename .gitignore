@@ -2,3 +2,9 @@ target
 *.class
 /build/
 /.gradle/
+
+# Ignore IntelliJ files
+.idea
+*.iml
+*.ipr
+*.iws

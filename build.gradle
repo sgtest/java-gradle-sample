@@ -5,9 +5,13 @@ version = '0.0.1-SNAPSHOT'
 description = 'Test srclib-java for gradle support.'
 
 repositories {
+	maven {
+		url 'https://dl.bintray.com/sourcegraph/simple/'
+	}
 	mavenCentral()
 }
 
 dependencies {
 	compile 'com.beust:jcommander:1.30'
+	compile 'com.sourcegraph:simple:1.0.1'
 }
